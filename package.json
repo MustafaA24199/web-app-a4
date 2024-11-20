@@ -1,0 +1,20 @@
+{
+  "name": "web_app_a3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Mustafa Abidi",
+  "license": "ISC",
+  "dependencies": {
+    "cloudinary": "^2.5.1",
+    "express": "^4.21.1",
+    "express-handlebars": "^8.0.1",
+    "multer": "^1.4.5-lts.1",
+    "node": "^18.20.5",
+    "streamifier": "^0.1.1"
+  }
+}

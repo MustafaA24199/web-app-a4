@@ -1,0 +1,132 @@
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+/* Navbar Styles */
+.navbar {
+  background-color: #343a40;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  color: #fff !important;
+  font-weight: bold;
+}
+
+.nav-link {
+  color: #ddd !important;
+  padding: 10px 20px;
+}
+
+.nav-link:hover {
+  background-color: #495057;
+  color: #fff !important;
+}
+
+/* Active Link Styling */
+.nav-link.active {
+  font-weight: bold; /* Makes the active link bold */
+  color: #fff !important; /* Ensures text remains visible */
+  background-color: #495057; /* Optional: Add a background color for active links */
+}
+
+
+/* Container and Layout */
+.container {
+  padding-top: 80px;
+}
+
+.row {
+  margin-bottom: 30px;
+}
+
+.main {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+aside {
+  background-color: #f1f1f1;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Typography */
+h2 {
+  font-size: 1.75rem;
+  margin-bottom: 15px;
+  color: #343a40;
+}
+
+p {
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+/* Links */
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Buttons */
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 1rem;
+  text-align: center;
+  border-radius: 4px;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .container {
+    padding: 20px;
+  }
+
+  aside,
+  .main {
+    margin-bottom: 20px;
+  }
+
+  .navbar {
+    text-align: center;
+  }
+
+  .navbar-brand {
+    display: inline-block;
+    margin: 0 auto;
+  }
+}
+
+.entry {
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #ccc; /* Light gray line */
+}
+
+/* Optional: Style for list items within entries */
+.entry li {
+  list-style-type: none;
+}

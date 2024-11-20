@@ -1,0 +1,36 @@
+<h1 class="mb-4">Items</h1>
+
+{{#if filtered}}
+<div class="mb-3">
+  <a href="/items" class="btn btn-secondary">Remove Filter</a>
+</div>
+{{/if}}
+
+{{#if items}}
+<table class="table table-bordered table-striped">
+  <thead class="table-dark">
+    <tr>
+      <th>ID</th>
+      <th>Name</th>
+      <th>Price</th>
+      <th>Date</th>
+      <th>Category</th>
+      <th>Published</th>
+    </tr>
+  </thead>
+  <tbody>
+    {{#each items}}
+    <tr>
+      <td>{{id}}</td> 
+      <td><a href="/items/{{id}}">{{title}}</a></td>
+      <td>${{price}}</td>
+      <td>{{postDate}}</td>
+      <td><a href="/items?category={{category}}">{{category}}</a></td>
+      <td>{{#if published}}Yes{{else}}No{{/if}}</td>
+    </tr>
+    {{/each}}
+  </tbody>
+</table>
+{{else}}
+<p class="text-center">No items available.</p>
+{{/if}}
