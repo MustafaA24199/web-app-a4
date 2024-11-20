@@ -1,3 +1,18 @@
+/*********************************************************************************
+ *  WEB322 – Assignment 03
+ *  I declare that this assignment is my own work in accordance with Seneca  Academic Policy.  No part
+ *  of this assignment has been copied manually or electronically from any other source
+ *  (including 3rd party web sites) or distributed to other students.
+ *
+ *  Name: _Mustafa Abidi_____________________ Student ID: _140526229_____________ Date: ___20-11-2024_____________
+ *
+ *  Cyclic Web App URL: __https://replit.com/@mustafaabidi44/webappA3______________________________________________________
+ *
+ *  GitHub Repository URL: _https://github.com/MustafaA24199/web-app-a4_____________________________________________________
+ *
+ ********************************************************************************/
+
+
 const express = require('express');
 const exphbs = require('express-handlebars');
 const multer = require('multer');
